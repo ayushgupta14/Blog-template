@@ -1,0 +1,66 @@
+.contact {
+    height: 81vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.contact::after {
+    content: "";
+    background-image: url('../imgss/img12.jpg');
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+.forum {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-right img {
+    width: 500px;
+    margin-top: -45px;
+}
+
+.btn2 {
+    padding: 6px 6px;
+    /* margin: auto; */
+    width: 12vw;
+    margin-left: 245px;
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 33px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    color: white;
+    background-color: rgb(69, 60, 50);
+}
+
+.formbox input,
+textarea {
+    width: 40vw;
+    margin: 8px;
+    padding: 12px;
+    font-family: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.formbox input:hover {
+    color: white;
+    background-color: rgb(102, 88, 74);
+}
+
+.boxm {
+    height: 23vh;
+}

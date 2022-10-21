@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* background-color: aqua; */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.log {
+    margin: 0px 5px;
+    padding: 6px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.log a{
+    text-decoration: none;
+    color: rgb(69, 60, 50);
+}
+
+.log:hover {
+    border: 2px solid black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.nav-left ul li {
+    list-style: none;
+    margin: 0 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: black;
+    /* padding: 0px 10px; */
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-left ul li a:hover {
+    color: rgb(110, 71, 11);
+    font-weight: bolder;
+}
+
+.content {
+    /* background-color: rgb(237, 225, 208); */
+    height: 250px;
+    padding: 8px;
+    display: flex;
+}
+
+.content-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.content-left h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.content-left p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img {
+    width: 220px;
+    /* border: 2px solid black;
+    border-radius: 113px; */
+}
+
+.home-article {
+    /* height: 812px; */
+    /* background-color: rgb(197, 197, 160); */
+    padding: 8px;
+}
+
+.article-left {
+    display: flex;
+    padding-left: 38px;
+}
+
+.article-head {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.article-head a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.article-head a:hover{
+    color: rgb(110, 71, 11);
+}
+
+.article-img img {
+    width: 170px;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(69, 60, 50);
+    height: 50px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+
+}

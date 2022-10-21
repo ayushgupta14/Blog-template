@@ -1,0 +1,47 @@
+.m-auto{
+    margin: auto;
+}
+
+.max-widht1{
+    max-width: 80vw;
+}
+
+.max-widht2{
+    max-width: 60vw;
+}
+
+.form-control{
+    padding: 6px 26px 10px 10px;
+    /* padding-top: 6px; */
+    margin: 0px 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    border-radius: 6px;
+    width: 165px;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-control:hover{
+    color: white;
+    background-color: rgb(121, 106, 88);
+    
+}
+
+.btn{
+    padding: 6px 6px;
+    margin: 0px -13px;
+    border: 2px solid black;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: bold;
+    height: 33px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    color: white;
+    background-color: rgb(69, 60, 50);
+}
